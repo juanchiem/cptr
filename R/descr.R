@@ -8,6 +8,8 @@
 #' }
 
 descr <- function(x){
+
+  stopifnot("Your input vectormust be numeric" = is.numeric(x))
   range <- paste( c("range:"), round(range(x)[1],1), "to", round(range(x)[2],1))
   mean <- paste( c("mean"), round(mean(x),1), sep = ": ")
   median <- paste( c("median"), round(median(x),1), sep = ": ")
