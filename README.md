@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of cptr is to organize your procedures for reporting results from crop protection trials. 
+The goal of this package is to organize your procedures for reporting results from crop protection trials. 
 
 # Installation
 
